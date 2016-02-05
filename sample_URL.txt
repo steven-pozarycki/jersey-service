@@ -1,0 +1,3 @@
+https://$HOST/myapp/customers/all
+https://$HOST/myapp/customers/100
+https://$HOST/myapp/application.wadl
