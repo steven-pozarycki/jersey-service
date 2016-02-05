@@ -4,9 +4,10 @@
     },
     "command": "java -jar jersey-service-1.0-SNAPSHOT-jar-with-dependencies.jar",
     "release": {
-        "build": "20150813Build",
-        "commit": "commitString",
-        "version": "20150813Version"
+        "build": "2016-02-05 Build",
+        "commit": "Committed by Steven Pozarycki",
+        "version": "2016-02-05 Version"
     },
-    "notes": "REST app for testing"
+    "notes": "REST application for testing Grizzly and Jersey"
 }
+
