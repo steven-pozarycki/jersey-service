@@ -50,6 +50,7 @@ else
     -H "Content-Type: multipart/form-data" \
     -F "name=${APP_NAME}" \
     -F "runtime=java" \
+    -F "deployment=@deployment.json" \
     -F "subscription=Hourly" \
     -F archiveURL=${APP_NAME}/${ARCHIVE_FILE} \
     https://${APAAS_HOST}/paas/service/apaas/api/v1.1/apps/${ID_DOMAIN}
